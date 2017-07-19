@@ -15,6 +15,7 @@
 		25EAD8821F1F4FE70042305E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EAD8801F1F4FE70042305E /* LaunchScreen.storyboard */; };
 		25EAD88D1F1F4FE70042305E /* universallayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EAD88C1F1F4FE70042305E /* universallayoutTests.swift */; };
 		25EAD8981F1F4FE70042305E /* universallayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EAD8971F1F4FE70042305E /* universallayoutUITests.swift */; };
+		25EAD8AA1F1F91ED0042305E /* NSLogofr.png in Resources */ = {isa = PBXBuildFile; fileRef = 25EAD8A91F1F91ED0042305E /* NSLogofr.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		25EAD8931F1F4FE70042305E /* universallayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = universallayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EAD8971F1F4FE70042305E /* universallayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = universallayoutUITests.swift; sourceTree = "<group>"; };
 		25EAD8991F1F4FE70042305E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25EAD8A91F1F91ED0042305E /* NSLogofr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NSLogofr.png; path = ../../NSLogofr.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		25EAD8741F1F4FE70042305E /* universallayout */ = {
 			isa = PBXGroup;
 			children = (
+				25EAD8A91F1F91ED0042305E /* NSLogofr.png */,
 				25EAD8751F1F4FE70042305E /* AppDelegate.swift */,
 				25EAD8771F1F4FE70042305E /* FirstViewController.swift */,
 				25EAD8791F1F4FE70042305E /* SecondViewController.swift */,
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25EAD8821F1F4FE70042305E /* LaunchScreen.storyboard in Resources */,
+				25EAD8AA1F1F91ED0042305E /* NSLogofr.png in Resources */,
 				25EAD87F1F1F4FE70042305E /* Assets.xcassets in Resources */,
 				25EAD87D1F1F4FE70042305E /* Main.storyboard in Resources */,
 			);
