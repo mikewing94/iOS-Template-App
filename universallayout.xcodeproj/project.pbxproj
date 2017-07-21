@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2531B4B51F21FAAC006BFD08 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2531B4B41F21FAAC006BFD08 /* Reachability.swift */; };
+		2531B4B71F220788006BFD08 /* nowifi.png in Resources */ = {isa = PBXBuildFile; fileRef = 2531B4B61F220788006BFD08 /* nowifi.png */; };
 		25EAD8761F1F4FE70042305E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EAD8751F1F4FE70042305E /* AppDelegate.swift */; };
 		25EAD8781F1F4FE70042305E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EAD8771F1F4FE70042305E /* FirstViewController.swift */; };
 		25EAD87A1F1F4FE70042305E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EAD8791F1F4FE70042305E /* SecondViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2531B4B41F21FAAC006BFD08 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		2531B4B61F220788006BFD08 /* nowifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nowifi.png; sourceTree = "<group>"; };
 		25EAD8721F1F4FE70042305E /* universallayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = universallayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EAD8751F1F4FE70042305E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25EAD8771F1F4FE70042305E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -101,10 +105,12 @@
 		25EAD8741F1F4FE70042305E /* universallayout */ = {
 			isa = PBXGroup;
 			children = (
+				2531B4B61F220788006BFD08 /* nowifi.png */,
 				25EAD8A91F1F91ED0042305E /* NSLogofr.png */,
 				25EAD8751F1F4FE70042305E /* AppDelegate.swift */,
 				25EAD8771F1F4FE70042305E /* FirstViewController.swift */,
 				25EAD8791F1F4FE70042305E /* SecondViewController.swift */,
+				2531B4B41F21FAAC006BFD08 /* Reachability.swift */,
 				25EAD87B1F1F4FE70042305E /* Main.storyboard */,
 				25EAD87E1F1F4FE70042305E /* Assets.xcassets */,
 				25EAD8801F1F4FE70042305E /* LaunchScreen.storyboard */,
@@ -242,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25EAD8821F1F4FE70042305E /* LaunchScreen.storyboard in Resources */,
+				2531B4B71F220788006BFD08 /* nowifi.png in Resources */,
 				25EAD8AA1F1F91ED0042305E /* NSLogofr.png in Resources */,
 				25EAD87F1F1F4FE70042305E /* Assets.xcassets in Resources */,
 				25EAD87D1F1F4FE70042305E /* Main.storyboard in Resources */,
@@ -271,6 +278,7 @@
 			files = (
 				25EAD87A1F1F4FE70042305E /* SecondViewController.swift in Sources */,
 				25EAD8761F1F4FE70042305E /* AppDelegate.swift in Sources */,
+				2531B4B51F21FAAC006BFD08 /* Reachability.swift in Sources */,
 				25EAD8781F1F4FE70042305E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +532,7 @@
 				25EAD89E1F1F4FE70042305E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25EAD89F1F1F4FE70042305E /* Build configuration list for PBXNativeTarget "universallayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +541,7 @@
 				25EAD8A11F1F4FE70042305E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25EAD8A21F1F4FE70042305E /* Build configuration list for PBXNativeTarget "universallayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +550,7 @@
 				25EAD8A41F1F4FE70042305E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
